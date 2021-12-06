@@ -38,5 +38,5 @@ export function logout() {
 }
 
 export function login(email, password) {
-return signInWithEmailAndPassword(auth, email, password);
+  return signInWithEmailAndPassword(auth, email, password);
 }
